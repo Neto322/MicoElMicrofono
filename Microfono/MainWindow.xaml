@@ -1,0 +1,15 @@
+﻿<Window x:Class="Microfono.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Microfono"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="400">
+    <Grid>
+        <Button x:Name="BtnIniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="BtnIniciar_Click" Background="#FFDC00FF" Foreground="#FF00FF80"/>
+        <Button Content="STAPH!!" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="75" Background="#FF1ADC7B" Foreground="#FFFF00DC"/>
+        <Label Content="-Hz" HorizontalAlignment="Left" Margin="274,21,0,0" VerticalAlignment="Top" Height="61" Width="108" FontSize="36" RenderTransformOrigin="0.444,0.29" Background="#FFFFC62D" Foreground="#FF01FF80"/>
+
+    </Grid>
+</Window>
