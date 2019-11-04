@@ -8,8 +8,8 @@
         Title="MainWindow" Height="150" Width="400">
     <Grid>
         <Button x:Name="BtnIniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="BtnIniciar_Click" Background="#FFDC00FF" Foreground="#FF00FF80"/>
-        <Button Content="STAPH!!" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="75" Background="#FF1ADC7B" Foreground="#FFFF00DC"/>
-        <Label Content="-Hz" HorizontalAlignment="Left" Margin="274,21,0,0" VerticalAlignment="Top" Height="61" Width="108" FontSize="36" RenderTransformOrigin="0.444,0.29" Background="#FFFFC62D" Foreground="#FF01FF80"/>
+        <Button Content="STAPH!!" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="75" Background="#FF1ADC7B" Foreground="#FFFF00DC" Click="Button_Click"/>
+        <TextBlock x:Name="LblHertz" HorizontalAlignment="Left" Margin="299,43,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.546,0.102" Height="27" Width="83"/>
 
     </Grid>
 </Window>
